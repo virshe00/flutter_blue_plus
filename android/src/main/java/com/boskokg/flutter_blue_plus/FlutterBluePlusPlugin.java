@@ -628,6 +628,7 @@ public class FlutterBluePlusPlugin implements FlutterPlugin, MethodCallHandler, 
           break;
         }
 
+
         BluetoothGatt gattServer;
         BluetoothGattCharacteristic characteristic;
         BluetoothGattDescriptor cccDescriptor;
