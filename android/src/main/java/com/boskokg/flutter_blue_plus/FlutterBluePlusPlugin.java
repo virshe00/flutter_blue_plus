@@ -782,7 +782,7 @@ public class FlutterBluePlusPlugin implements FlutterPlugin, MethodCallHandler, 
             break;
           }
         } catch(Exception e) {
-          result.error("requestConnectionPriority", e.getMessage(), "jueputa" + e);
+          result.error("requestConnectionPriority", e.getMessage(), e);
           break;
         }
       }
